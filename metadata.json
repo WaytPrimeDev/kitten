@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Arlen Cat Premium Cattery",
+  "description": "A luxury marketing-focused web platform for a professional Scottish Fold and Scottish Straight cattery, featuring AI-driven kitten matching and a seamless client experience.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
