@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { getKittenAdvice } from '../services/geminiService';
+
 
 const AIConsultant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +23,8 @@ const AIConsultant: React.FC = () => {
     setInput('');
     setMessages(prev => [...prev, {role: 'user', text: userMsg}]);
     setIsTyping(true);
-    const aiResponse = await getKittenAdvice(userMsg);
-    setMessages(prev => [...prev, {role: 'ai', text: aiResponse}]);
+    
+    
     setIsTyping(false);
   };
 
